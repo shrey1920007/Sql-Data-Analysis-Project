@@ -17,7 +17,7 @@ cursor.execute("DROP TABLE IF EXISTS superstore")
 # Create table with proper column names
 df.to_sql("superstore", conn, if_exists="replace", index=False)
 
-print("✅ Database created and data loaded successfully!")
+print("Database created and data loaded successfully!")
 
 # Close connection
 conn.commit()
