@@ -9,7 +9,7 @@ cursor.execute("PRAGMA table_info(superstore);")
 columns = cursor.fetchall()
 
 # Print column names
-print("✅ Columns in the 'superstore' table:")
+print("Columns in the 'superstore' table:")
 for col in columns:
     print(col)
 
